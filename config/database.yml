@@ -84,3 +84,4 @@ production:
   database: social_production
   username: social
   password: <%= ENV["SOCIAL_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
