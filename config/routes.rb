@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # users controller
   # get 'users/new' => change to signup
   get '/signup', to: 'users#new'
+  resources :users
 end
