@@ -1,11 +1,12 @@
 require 'test_helper'
 
 class ApplicationHelperTest < ActionView::TestCase
-  test 'full title helper' do
-    assert_equal FILL_IN, full_title
-    assert_equal FILL_IN, full_title('Help')
+  test "full title helper" do
+  assert_equal FILL_IN, full_title
+  assert_equal FILL_IN, full_title("Help")
   end
 end
+
 
 # si esto da error eliminar este archivo así como:
 # línea 12 de test/integration/site_layout_test.rb
